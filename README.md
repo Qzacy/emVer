@@ -11,5 +11,5 @@ E-Mail scanner, it verificate the e-mail address using [WhoIsXmlAPI](whoisxmlapi
 
 ![API Variable](/screenshots/api.png)
 
-### Usage
+## Usage
 - ```python3 emver.py [test@mail.com]```
