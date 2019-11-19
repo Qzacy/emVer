@@ -24,5 +24,5 @@ try:
     print("MX Records:\n" + "\n".join(resp["mxRecords"]))
     
     print("\nCatch all: " + resp["catchAllCheck"])
-except EOFError:
+except Exception:
     print("An error occured: " + resp["ErrorMessage"])
